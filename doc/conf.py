@@ -17,6 +17,10 @@ release = '0.1'
 
 extensions = ['myst_parser', 'sphinx-autodoc2']
 
+autodoc2_packages = [
+    "multiply.py"
+]
+
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
